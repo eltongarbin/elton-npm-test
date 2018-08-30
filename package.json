@@ -1,0 +1,36 @@
+{
+  "name": "elton-npm-test",
+  "version": "0.1.0",
+  "description": "A react library test",
+  "main": "./lib/BoilerplateComponent.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltongarbin/elton-npm-test.git"
+  },
+  "author": "Elton Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eltongarbin/elton-npm-test/issues"
+  },
+  "homepage": "https://github.com/eltongarbin/elton-npm-test#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
